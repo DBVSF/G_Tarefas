@@ -1,0 +1,79 @@
+Container(
+        color: Colors.white,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Stack(
+              alignment: AlignmentDirectional.center,
+              children: [
+                Container(
+                  color: Colors.black,
+                  width: 37,
+                  height: 37,
+                ),
+                Container(
+                  color: Colors.green,
+                  width: 30,
+                  height: 30,
+                ),
+              ],
+            ),
+            Stack(
+              alignment: AlignmentDirectional.center,
+              children: [
+                Container(
+                  color: Colors.black,
+                  width: 37,
+                  height: 37,
+                ),
+                Container(
+                  color: Colors.blue,
+                  width: 30,
+                  height: 30,
+                ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Container(
+                  color: Colors.red,
+                  height: 30,
+                  width: 30,
+                ),
+                Container(
+                  color: Colors.blueGrey,
+                  height: 30,
+                  width: 30,
+                ),
+                Container(
+                  color: Colors.green,
+                  height: 30,
+                  width: 30,
+                ),
+                Container(
+                  color: Colors.blueGrey,
+                  height: 30,
+                  width: 30,
+                )
+              ],
+            ),
+            Container(
+              color: Colors.deepPurple,
+              height: 30,
+              width: 300,
+              child: Text(
+                'Roxo',
+                style: TextStyle(color: Colors.black, fontSize: 20),
+                textAlign: TextAlign.center,
+              ),
+            ),
+            ElevatedButton(
+                onPressed: () {
+                  print('Botao Apertado');
+                },
+                child: Text('Aperte o botão'))
+          ],
+        ),
+      )
