@@ -24,7 +24,8 @@ class _TaskState extends State<Task> {
               borderRadius: BorderRadius.circular(4),
               //color: Colors.blue,
 
-              color: ((level / widget.difficultyLevel) / 10 <= widget.difficultyLevel)
+              color: ((level / widget.difficultyLevel) / 10 <=
+                      widget.difficultyLevel)
                   ? Colors.green
                   : Colors.blue,
             ),
@@ -100,9 +101,8 @@ class _TaskState extends State<Task> {
                       width: 200,
                       child: LinearProgressIndicator(
                         value: (widget.difficultyLevel > 0)
-                           ? (level / widget.difficultyLevel) / 10
-                           : 1,
-
+                            ? (level / widget.difficultyLevel) / 10
+                            : 1,
                       ),
                     ),
                   ),
