@@ -1,10 +1,9 @@
 # primeiro_projeto
 
-Primeiro projeto em Flutter, um gerenciador de tarefas básico com 4 atividades.
-Explorando os primeiros Widgets do Flutter.
+Este primeiro projeto em Flutter é um gerenciador de tarefas, onde o usuário pode adiciona-las, e progredir de nível conforme vai as praticando. 
 
+O usuário pode adicionar uma nova tarefa clicando no botão +, onde terá que inserir um nome, dificuldade e uma imagem.  
 
-![gifApp1](https://github.com/DBVSF/Tarefas-Flutter/assets/50590026/9533ba53-fd47-4ed0-bfe5-3b6a0e7a3ecb)
+Conforme evolui, a barra de progresso alterá de cor, demonstrando a evolução. Também poderá adicionar e remover tarefas conforme quiser.
 
-
-
+![APP](https://github.com/DBVSF/G_Tarefas/assets/50590026/7c651772-65e5-4c6f-be18-45474d874f61)
